@@ -35,3 +35,7 @@ code {
   src: url("../public/assets/fonts/geometria-heavy-webfont.woff") format("woff"),
     url("../public/assets/fonts/geometria-heavy-webfont.woff2") format("woff2");
 }
+
+h2{
+  font-size: 2.5em;
+}
