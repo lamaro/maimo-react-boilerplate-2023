@@ -7,9 +7,11 @@ import CardsContainer from '../CardsContainer/CardsContainer';
 const App = () => {
   return (
     <div className='App'>
-      <Header />
-      <Hero />
-      <CardsContainer />
+      <Header title={`mi titulo`} />
+      <div className='wrapper'>
+        <Hero />
+        <CardsContainer />
+      </div>
       <Footer />
     </div>
   );
