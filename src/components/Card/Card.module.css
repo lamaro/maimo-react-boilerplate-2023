@@ -1,7 +1,12 @@
 .card {
-    text-decoration: none;
+  display: flex;
+  flex-direction: column;
 }
 
-.cafe1{
-    max-width: 300px;
+.card a {
+  text-decoration: none;
+}
+
+.cafe1 {
+  max-width: 300px;
 }
