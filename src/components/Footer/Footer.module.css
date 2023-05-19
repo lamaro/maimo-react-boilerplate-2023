@@ -1,0 +1,52 @@
+footer {
+    background-color: rgb(0, 0, 61);
+    margin-top: 165px;
+    text-align: center;
+}
+
+.logofoot {
+    height: 195px;
+    padding-bottom: 32px;
+    padding-top: 81px;
+}
+
+footer ul {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -120px;
+    padding-bottom: 60px;
+}
+
+footer li {
+    padding: 5px;
+    display: inline;
+}
+
+footer a {
+    margin-bottom: 20px;
+    color: #FFC700;
+}
+
+footer a:hover {
+    color:white;
+}
+
+footer form {
+    float: right;
+}
+
+.box {
+    background-color: #060022;
+    color: white;
+    padding-bottom: 16px;
+    padding-top: 13px;
+}
+
+.lineafoot {
+    margin-bottom: 142px;
+    color: #FFC700;
+    height: 3px;
+    background-color: #FFC700;
+}
+
+    
