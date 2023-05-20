@@ -1,8 +1,13 @@
 import React from 'react'
+import styles from './Card.module.css'
 
-const Card = () => {
+const Card = ({name, image, language}) => {
   return (
-    <div>Card ssss</div>
+    <article className={`col_4 ${styles.card_wrapper}`}>
+      <img src={image} alt={name} />
+      <h2>{name}</h2>
+      <p>{language}</p>
+    </article>
   )
 }
 
