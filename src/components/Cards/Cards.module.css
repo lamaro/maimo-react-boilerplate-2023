@@ -1,0 +1,18 @@
+.card_wrapper {
+    padding: 30px;
+    background-color:#004698;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 5px;
+    text-transform: none;
+}
+
+.card_wrapper img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.datos {
+    text-transform: none;
+}

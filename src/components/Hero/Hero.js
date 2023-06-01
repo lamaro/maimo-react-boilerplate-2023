@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import Banner from '../Banner/Banner';
 
 const Hero = () => {
   
   
   return (
-    <div>
+    <Link id='hero'>
     <Banner />
-    </div>
+    </Link>
   )
 }
 

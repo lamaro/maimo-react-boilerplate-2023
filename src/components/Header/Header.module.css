@@ -28,8 +28,9 @@ a{
 }
 
 nav img {
-  height: 55px;
-  margin-top: 10px;
+    height: 55px;
+    margin-top: 21px;
+    margin-bottom: -50px
 }
 
 .logo{
@@ -63,8 +64,267 @@ nav a:hover{
   background: #FFC700;
   margin-right: 10px;
   transition: opacity .4s ease;
+  display: block;
 }
 
 .btn:hover{
   opacity: .6;
+}
+
+@media only screen and (max-width: 600px) {
+
+  header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 143%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+    background-color: #004698;
+  }
+
+  nav a{
+    margin: 0 15px;
+    transition: color .4s ease;
+    color: #FFC700;
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-left: 510px;
+    margin-top: 32px;
+    padding-bottom: 40px;
+}
+
+.btn{
+  padding: 15px 30px;
+  border-radius: 50px;
+  background: #FFC700;
+  margin-right: 10px;
+  transition: opacity .4s ease;
+  display: none;
+}
+
+}
+
+@media only screen and (min-width: 600px) {
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 141%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+    background-color: #004698;
+}
+
+nav img {
+  height: 55px;
+  margin-top: 21px;
+  margin-bottom: -50px;
+}
+
+nav a{
+  margin: 0 15px;
+  transition: color .4s ease;
+  color: #FFC700;
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  padding-left: 510px;
+  margin-top: 32px;
+  padding-bottom: 40px;
+}
+
+.btn{
+padding: 15px 30px;
+border-radius: 50px;
+background: #FFC700;
+margin-right: 10px;
+transition: opacity .4s ease;
+display: none;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 141%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+    background-color: #004698;
+}
+
+  nav img {
+    height: 55px;
+    margin-top: 21px;
+    margin-bottom: -50px;
+}
+
+  nav a{
+    margin: 0 15px;
+    transition: color .4s ease;
+    color: #FFC700;
+    display: block;
+}
+
+  nav a:hover{
+  color: white;
+}
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-left: 296px;
+    margin-top: 16px;
+    padding-bottom: 40px;
+}
+
+  .btn{
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: #FFC700;
+    margin-right: 10px;
+    transition: opacity .4s ease;
+    display: block;
+}
+
+  .btn:hover{
+  opacity: .6;
+}
+
+}
+
+@media only screen and (min-width: 992px) {
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+    background-color: #004698;
+}
+
+  nav img {
+    height: 55px;
+    margin-top: 21px;
+    margin-bottom: -50px;
+  }
+
+  nav a{
+    margin: 0 15px;
+    transition: color .4s ease;
+    color: #FFC700;
+    display: block;
+}
+
+  nav a:hover{
+    color: white;
+}
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-left: 296px;
+    margin-top: 16px;
+    padding-bottom: 40px;
+}
+
+  .btn{
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: #FFC700;
+    margin-right: 10px;
+    transition: opacity .4s ease;
+    display: block;
+}
+
+  .btn:hover{
+    opacity: .6;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+    background-color: #004698;
+}
+
+  nav img {
+    height: 55px;
+    margin-top: 21px;
+    margin-bottom: -50px;
+}
+
+  nav a{
+    margin: 0 15px;
+    transition: color .4s ease;
+    color: #FFC700;
+    display: block;
+}
+
+  nav a:hover{
+    color: white;
+}
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-left: 510px;
+    margin-top: 16px;
+    padding-bottom: 40px;
+}
+
+  .btn{
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: #FFC700;
+    margin-right: 10px;
+    transition: opacity .4s ease;
+    display: block;
+}
+
+  .btn:hover{
+    opacity: .6;
+}
+
 }

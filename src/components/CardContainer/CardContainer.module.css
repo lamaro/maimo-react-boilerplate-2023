@@ -1,0 +1,12 @@
+.card_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tituloplant {
+    color: #004698;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 65px;
+    font-size: 95px;
+}
