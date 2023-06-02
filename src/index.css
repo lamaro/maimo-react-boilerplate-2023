@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.grid { display: grid; grid-template-columns: repeat(12, 1fr); grid-column-gap: 30px; grid-row-gap: 40px; }
+
+.col_1{ grid-column: span 1; }
+.col_2{ grid-column: span 2; }
+.col_3{ grid-column: span 3; }
+.col_4{ grid-column: span 4; }
+.col_5{ grid-column: span 5; }
+.col_6{ grid-column: span 6; }
+.col_7{ grid-column: span 7; }
+.col_8{ grid-column: span 8; }
+.col_9{ grid-column: span 9; }
+.col_10{ grid-column: span 10; }
+.col_11{ grid-column: span 11; }
+.col_12{ grid-column: span 12; }
+
+@font-face {
+  font-family: "Geometria";
+  src: url("./fonts/geometria-webfont.woff") format("woff"),
+    url("./fonts/geometria-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GeometriaMedium";
+  src: url("./fonts/geometria-medium-webfont.woff") format("woff"),
+    url("./fonts/geometria-medium-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GeometriaBold";
+  src: url("./fonts/geometria-bold-webfont.woff") format("woff"),
+    url("./fonts/geometria-bold-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GeometriaHeavy";
+  src: url("./fonts/geometria-heavy-webfont.woff") format("woff"),
+    url("./fonts/geometria-heavy-webfont.woff2") format("woff2");
+}
+
+h2{
+  font-size: 2.5em;
+}
+
+*{
+  font-family: "Geometria";
+}

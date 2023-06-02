@@ -1,0 +1,7 @@
+.cardsContainer {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    max-width: 1200px;
+    margin: 0 auto;
+}
