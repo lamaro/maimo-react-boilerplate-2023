@@ -9,7 +9,7 @@ const App = () => {
    /* const [title, setTitle] = useState('Mi titulo'); */
   return (
     <div className='App'>
-      <Header title={`mi titulo`} />
+      <Header />
       <div className='wrapper'>
         <Hero />
         <CardsContainer />
