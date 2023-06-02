@@ -3,9 +3,8 @@ import Styles from "./Hero.module.css"
 
 const Hero = () => {
   return (
-    <section >
-    <img src='/assets/img/hero-img.jpg' alt='Abstract scene with a coffe-like sensation' className={Styles.image} />
-    <h1>caféLovers</h1>
+    <section className={Styles.hero}>
+    <h1><span className={Styles.hero_cafe}>café</span><span class={Styles.hero_lovers}>Lovers</span></h1>
     </section>
   )
 }

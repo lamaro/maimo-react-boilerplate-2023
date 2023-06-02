@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from '../Header/Header';
 import Hero from '../Hero/Hero';
 import Footer from '../Footer/Footer';
 import CardsContainer from '../CardsContainer/CardsContainer';
+import axios from 'axios';
 
 const App = () => {
+   /* const [title, setTitle] = useState('Mi titulo'); */
   return (
     <div className='App'>
       <Header />

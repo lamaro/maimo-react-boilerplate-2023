@@ -9,4 +9,6 @@ const Button = () => {
   );
 };
 
+//button en lugar de a, aplicar props para los links, repasar
+
 export default Button;
