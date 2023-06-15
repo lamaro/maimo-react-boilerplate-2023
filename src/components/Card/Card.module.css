@@ -2,3 +2,10 @@
 .card_wrapper img{
   width: 100%;
 }
+
+.card_wrapper{
+  padding: 20px;
+}
+.selected {
+  background-color: yellow;
+}
