@@ -1,0 +1,24 @@
+
+.verticalLine{
+    border-right: 1px solid rgb(255, 255, 255);
+    height: 1.2em;
+} 
+
+.containerFooter{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+}
+
+
+.center{
+    margin: 1em;
+    text-align: center;
+}
+
+.icon
+{
+    background-image: url('/Users/jimezapolski/Documents/JIME/MAIMONIDES/2023/Programación Multimedial III/maimo-react-boilerplate-2023/public/assets/img/corazon.png');
+    width:0.5em;
+    height: 0.5em;
+}

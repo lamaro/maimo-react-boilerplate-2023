@@ -1,0 +1,21 @@
+.cardStyle{
+    padding: 0.2em 0.4em;
+    text-align: center;
+}
+
+.imgCard{
+    border-radius: 100%;
+}
+
+.buttonStyle{
+    background-color: rgba(255, 255, 255, 0.922);
+    border-radius: 4em;
+    color: black;
+    font-size: 1em;
+}
+
+.buttonStyle:hover{
+
+    color: white;
+    background-color: rgba(255, 255, 255, 0.6);
+}

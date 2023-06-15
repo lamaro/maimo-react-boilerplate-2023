@@ -1,0 +1,33 @@
+.center {
+  margin: 1em;
+  text-align: center;
+}
+
+.space {
+  margin: 2em;
+  padding: 1em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+.imgStyle {
+
+  border-top-left-radius: 200px;
+border-bottom-right-radius: 50px;
+}
+
+.buttonStyle {
+  background-color: rgba(255, 255, 255, 0.922);
+  border-radius: 4em;
+  color: black;
+  font-size: 1em;
+}
+
+.buttonStyle:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.6);
+}
