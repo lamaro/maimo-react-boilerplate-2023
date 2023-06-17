@@ -16,3 +16,88 @@
 .datos {
     text-transform: none;
 }
+
+@media only screen and (min-width: 480px) {
+    .card_wrapper {
+        padding: 8px;
+        background-color: #004698;
+        margin-top: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        border-radius: 5px;
+        text-transform: none;
+    }
+
+    .card_wrapper img {
+        width: 100%;
+        border-radius: 60px;
+    }
+
+    .grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 7px;
+    grid-row-gap: 40px;
+    }
+
+    .datos {
+        display: none;
+    }
+    }
+
+    @media only screen and (min-width: 768px) {
+
+        .card_wrapper {
+            padding: 8px;
+            background-color: #004698;
+            margin-top: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            border-radius: 5px;
+            text-transform: none;
+        }
+    
+        .card_wrapper img {
+            width: 100%;
+            border-radius: 0px;
+        }
+    
+        .grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-column-gap: 7px;
+        grid-row-gap: 40px;
+        }
+    
+        .datos {
+            display: block;
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .card_wrapper {
+            padding: 30px;
+            background-color:#004698;
+            margin-top: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            border-radius: 5px;
+            text-transform: none;
+        }
+        
+        .card_wrapper img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-column-gap: 22px;
+            grid-row-gap: 40px;
+            }
+        
+        .datos {
+            text-transform: none;
+        }
+    }

@@ -97,101 +97,7 @@
 
   }
 
-  @media only screen and (max-width: 600px) {
-
-    hr {
-      margin-left: 50px;
-      margin-right: 20px;
-      color: #004698;
-      height: 4px;
-      background-color: #004698;
-      display: none;
-    }
-
-    .notitulo3 {
-      color: #004698;
-      margin-bottom: 15px;
-      margin-top: 65px;
-      margin-left: 51px;
-      text-align: center;
-    }
-
-    article {
-      overflow: hidden;
-      width: 285px;
-      height: 500px;
-      float: right;
-      margin-top: 20px;
-      background-color: #004698;
-      color: #ffffff;
-      margin-bottom: 40px;
-    }
-
-    article h1 {
-      font-family: sans-serif;
-      color: rgb(237, 190, 36);
-      margin-left: 20px;
-      margin-top: 163px;
-      font-size: 40px;
-      margin-bottom: 3px;
-    }
-
-    article p {
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color:white ;
-      text-align: left;
-      font-size: 90%;
-      margin-left: 20px;
-      margin-top: 20px;
-      margin-right: 20px;
-      text-transform: none;
-      display: none;
-    }
-
-    .btn3 {
-      display: inline-block;
-      background-color: #FFC700;
-      color: white;
-      text-align: center;
-      padding: 10px 20px;
-      border-radius: 8px;
-      text-decoration: none;
-      margin: 10px;
-      margin-left: 27px;
-      margin-top: 55px;
-      width: 225px;
-      font-family: fantasy;
-      font-size: 22px;
-    }
-
-    .btn3:hover {
-      background-color: #ffe856;
-    }
-
-    aside {
-    overflow: hidden;
-    width: 312px;
-    height: 500px;
-    background: #004698;
-    float: left;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    }
-  }
-
-  .festejo {
-    display: none;
-  }
-
-  .festejov2 {
-    display: block;
-  }
-
-  .festejov3 {
-    display: none;
-  }
-
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 480px) {
 
     hr {
       margin-left: 50px;
@@ -213,7 +119,7 @@
     article h1 {
       font-family: sans-serif;
       color: rgb(237, 190, 36);
-      margin-left: 20px;
+      margin-left: 34px;
       margin-top: 163px;
       font-size: 40px;
       margin-bottom: 3px;
@@ -233,7 +139,7 @@
 
     article {
       overflow: hidden;
-      width: 289px;
+      width: 480px;
       height: 500px;
       float: right;
       margin-top: 20px;
@@ -247,13 +153,13 @@
       background-color: #FFC700;
       color: white;
       text-align: center;
-      padding: 10px 20px;
-      border-radius: 8px;
+      padding: 16px 20px;
+      border-radius: 32px;
       text-decoration: none;
       margin: 10px;
-      margin-left: 27px;
+      margin-left: 41px;
       margin-top: 55px;
-      width: 234px;
+      width: 395px;
       font-family: fantasy;
       font-size: 22px;
     }
@@ -266,21 +172,12 @@
       float: left;
       margin-top: 20px;
       margin-bottom: 40px;
+      display: none;
       }
 
       .festejo {
         display: none;
       }
-    
-      .festejov2 {
-        display: block;
-      }
-    
-      .festejov3 {
-        display: none;
-      }
-    
-
   }
 
   @media only screen and (min-width: 768px) {
@@ -304,7 +201,7 @@
 
     article {
       overflow: hidden;
-      width: 367px;
+      width: 768px;
       height: 500px;
       float: right;
       margin-top: 20px;
@@ -324,14 +221,14 @@
 
     article p {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color:white ;
+      color: white;
       text-align: left;
       font-size: 90%;
-      margin-left: 20px;
+      margin-left: 29px;
       margin-top: 20px;
       margin-right: 20px;
       text-transform: none;
-      display: none;
+      display: block;
     }
 
     aside {
@@ -342,124 +239,36 @@
       float: left;
       margin-top: 20px;
       margin-bottom: 40px;
+      display: none;
       }
 
       .btn3 {
-      display: inline-block;
-      background-color: #FFC700;
-      color: white;
-      text-align: center;
-      padding: 10px 20px;
-      border-radius: 8px;
-      text-decoration: none;
-      margin: 10px;
-      margin-left: 27px;
-      margin-top: 55px;
-      width: 308px;
-      font-family: fantasy;
-      font-size: 22px
+        display: inline-block;
+        background-color: #FFC700;
+        color: white;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        margin: 10px;
+        margin-left: 86px;
+        margin-top: 55px;
+        width: 555px;
+        font-family: fantasy;
+        font-size: 22px;
       }
 
       .festejo {
         display: none;
       }
     
-      .festejov2 {
-        display: none;
-      }
-    
-      .festejov3 {
-        display: block;
-      }
-    
-
-  }
-
-  @media only screen and (min-width: 992px) {
-
-    hr {
-      margin-left: 50px;
-      margin-right: 20px;
-      color: #004698;
-      height: 4px;
-      background-color: #004698;
-      display: block;
-    }
-
-    .notitulo3 {
-      color: #004698;
-      margin-bottom: 15px;
-      margin-top: 65px;
-      margin-left: 50px;
-    }
-
-    .btn3 {
-      display: inline-block;
-      background-color: #FFC700;
-      color: white;
-      text-align: center;
-      padding: 10px 20px;
-      border-radius: 8px;
-      text-decoration: none;
-      margin: 10px;
-      margin-left: 27px;
-      margin-top: 35px;
-      width: 437px;
-      font-family: fantasy;
-      font-size: 23px;
-      }
-
-      article {
-      overflow: hidden;
-      width: 495px;
-      height: 500px;
-      float: right;
-      margin-top: 20px;
-      background-color: #004698;
-      color: #ffffff;
-      margin-bottom: 40px;
-      }
-
-      aside {
-      overflow: hidden;
-      width: 497px;
-      height: 500px;
-      background: #004698;
-      float: left;
-      margin-top: 20px;
-      margin-bottom: 40px;
-        }
-
-      article p {
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color:white ;
-      text-align: left;
-      font-size: 90%;
-      margin-left: 20px;
-      margin-top: 20px;
-      margin-right: 20px;
-      text-transform: none;
-      display: block;   
-        }
-
-        .festejo {
-          display: block;
-        }
-      
-        .festejov2 {
-          display: none;
-        }
-      
-        .festejov3 {
-          display: none;
-        }
   }
 
   @media only screen and (min-width: 1200px) {
 
     article {
       overflow: hidden;
-      width: 622px;
+      width: 600px;
       height: 500px;
       float: right;
       margin-top: 20px;
@@ -490,12 +299,13 @@
     
     aside {
       overflow: hidden;
-      width: 842px;
+      width: 600px;
       height: 500px;
       background:#004698;
       float: left;
       margin-top: 20px;
       margin-bottom: 40px;
+      display: block;
     }
   
     article a {
@@ -552,20 +362,36 @@
       color: #004698;
       height: 4px;
       background-color: #004698;
+      display: block;
   
     }
 
     .festejo {
       display: block;
     }
-  
-    .festejov2 {
-      display: none;
-    }
-  
-    .festejov3 {
-      display: none;
-    }
+  }
 
-
+  @media only screen and (min-width: 1464px) {
+    article {
+      overflow: hidden;
+      width: 622px;
+      height: 500px;
+      float: right;
+      margin-top: 20px;
+      background-color:#004698;
+      color: #ffffff;
+      margin-bottom: 40px;
+    }
+   
+   
+   
+    aside {
+      overflow: hidden;
+      width: 842px;
+      height: 500px;
+      background:#004698;
+      float: left;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
   }

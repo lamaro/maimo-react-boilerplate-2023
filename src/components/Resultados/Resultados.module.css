@@ -9,7 +9,7 @@
     padding: 40px 70px;
     border: 5px solid #FFC700;
     margin-left: 85px;
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 50px;
   }
 
@@ -18,11 +18,11 @@
     margin-bottom: 3px;
   }
 
-  .logorival {
+  .logoboca {
     height: 55px;
   }
 
-  .logoboca {
+  .logorival {
     height: 55px;
   }
 
@@ -47,299 +47,102 @@
     background-color: #faea86;
   }
 
-  .notitulo {
-    color: #004698;
-    margin-bottom: 40px;
-    margin-top: 65px;
-    margin-left: 30px
-  }
 
-  .notitulo2 {
-    color: #004698;
-    margin-bottom: 40px;
-    margin-top: 65px;
-    margin-left: 30px
-  }
-
-  @media only screen and (max-width: 600px) {
-
-    .notitulo2 {
-    color: #004698;
-    margin-bottom: 40px;
-    margin-top: 65px; 
-    text-align: center;
-    }
-
-    .notitulo {
-      color: #004698;
-      margin-bottom: 40px;
-      margin-top: 65px;
-      margin-left: 30px;
-      text-align: center;
-    }
-
+  @media only screen and (min-width: 480px) {
     .partido {
     background-color: #004698;
-    border-radius: 70px;
+    border-radius: 30px;
     text-align: center;
-    width: 89%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 18px 70px;
+    padding: 40px 47px;
     border: 5px solid #FFC700;
-    margin-left: 45px;
-    font-size: 25px;
+    margin-left: 26px;
+    font-size: 20px;
     margin-bottom: 50px;
-    }
-
-    .logorival {
-      height: 40px;
     }
 
     .logoboca {
       height: 40px;
     }
 
-    .btn4 {
-      display: inline-block;
-      background-color: #FFC700;
-      color: #fff;
-      text-align: center;
-      padding: 10px 20px;
-      border-radius: 8px;
-      text-decoration: none;
-      margin: 10px;
-      margin-left: 27px;
-      margin-top: 19px;
-      margin-bottom: 16px;
-      width: 190px;
-      font-family: fantasy;
-      font-size: 22px;
-    }
-  
-    .btn4:hover {
-      background-color: #faea86;
-    }
-
-    .resultado {
-      color: white;
-      margin-bottom: 3px;
-      font-size: 30px;
-    }
-  }
-
-  @media only screen and (min-width: 600px) {
-
-    .notitulo2 {
-    color: #004698;
-    margin-bottom: 40px;
-    margin-top: 65px; 
-    text-align: center;
-    }
-
-    .notitulo {
-      color: #004698;
-      margin-bottom: 40px;
-      margin-top: 65px;
-      margin-left: 30px;
-      text-align: center;
-    }
-
-    .partido {
-    background-color: #004698;
-    border-radius: 70px;
-    text-align: center;
-    width: 89%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 18px 70px;
-    border: 5px solid #FFC700;
-    margin-left: 45px;
-    font-size: 25px;
-    margin-bottom: 50px;
-    }
-
     .logorival {
       height: 40px;
     }
 
-    .logoboca {
-      height: 40px;
-    }
-
     .btn4 {
       display: inline-block;
-      background-color: #FFC700;
-      color: #fff;
-      text-align: center;
-      padding: 10px 20px;
-      border-radius: 8px;
-      text-decoration: none;
-      margin: 10px;
-      margin-left: 27px;
-      margin-top: 19px;
-      margin-bottom: 16px;
-      width: 190px;
-      font-family: fantasy;
-      font-size: 22px;
+    background-color: #FFC700;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 10px;
+    margin-left: 21px;
+    margin-top: 19px;
+    margin-bottom: 16px;
+    width: 138px;
+    font-family: fantasy;
+    font-size: 16px;
     }
   
     .btn4:hover {
       background-color: #faea86;
     }
 
-    .resultado {
-      color: white;
-      margin-bottom: 3px;
-      font-size: 30px;
-    }
   }
 
   @media only screen and (min-width: 768px) {
-
-    .notitulo2 {
-      color: #004698;
-      margin-bottom: 40px;
-      margin-top: 65px; 
-      text-align: center;
-      }
-
-      .notitulo {
-        color: #004698;
-        margin-bottom: 40px;
-        margin-top: 65px;
-        margin-left: 30px;
-        text-align: center;
-      }
-  
-      .partido {
-      background-color: #004698;
-      border-radius: 70px;
-      text-align: center;
-      width: 95%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 18px 70px;
-      border: 5px solid #FFC700;
-      margin-left: 45px;
-      font-size: 25px;
-      margin-bottom: 50px;
-      }
-  
-      .logorival {
-        height: 50px;
-      }
-  
-      .logoboca {
-        height: 50px;
-      }
-  
-      .btn4 {
-        display: inline-block;
-        background-color: #FFC700;
-        color: #fff;
-        text-align: center;
-        padding: 10px 20px;
-        border-radius: 8px;
-        text-decoration: none;
-        margin: 10px;
-        margin-left: 27px;
-        margin-top: 19px;
-        margin-bottom: 16px;
-        width: 219px;
-        font-family: fantasy;
-        font-size: 22px;
-      }
-    
-      .btn4:hover {
-        background-color: #faea86;
-      }
-  
-      .resultado {
-        color: white;
-        margin-bottom: 3px;
-        font-size: 50px;
-      }
-  }
-
-  @media only screen and (min-width: 992px) {
-
     .partido {
       background-color: #004698;
-      border-radius: 70px;
+      border-radius: 50px;
       text-align: center;
-      width: 87%;
+      width: 90%;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 40px 70px;
+      padding: 40px 57px;
       border: 5px solid #FFC700;
-      margin-left: 85px;
-      font-size: 25px;
+      margin-left: 26px;
+      font-size: 30px;
       margin-bottom: 50px;
-    }
-  
-    .resultado {
-      color: white ;
-      margin-bottom: 3px;
-    }
-  
-    .logorival {
-      height: 55px;
-    }
-  
+      }
+
+      
     .logoboca {
-      height: 55px;
+      height: 50px;
     }
-  
+
+    .logorival {
+      height: 50px;
+    }
+
     .btn4 {
       display: inline-block;
-      background-color: #FFC700;
-      color: #fff;
-      text-align: center;
-      padding: 10px 20px;
-      border-radius: 8px;
-      text-decoration: none;
-      margin: 10px;
-      margin-left: 27px;
-      margin-top: 19px;
-      margin-bottom: 16px;
-      width: 420px;
-      font-family:fantasy;
-      font-size: 22px;
+    background-color: #FFC700;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 10px;
+    margin-left: 21px;
+    margin-top: 19px;
+    margin-bottom: 16px;
+    width: 190px;
+    font-family: fantasy;
+    font-size: 16px;
     }
   
     .btn4:hover {
       background-color: #faea86;
     }
-  
-    .notitulo {
-      color: #004698;
-      margin-bottom: 40px;
-      margin-top: 65px;
-      margin-left: 30px
-    }
-  
-    .notitulo2 {
-      color: #004698;
-      margin-bottom: 40px;
-      margin-top: 65px;
-      margin-left: 30px
-    }
-
-
-
-
-
-
-
   }
 
   @media only screen and (min-width: 1200px) {
-
     .partido {
       background-color: #004698;
       border-radius: 70px;
@@ -351,7 +154,7 @@
       padding: 40px 70px;
       border: 5px solid #FFC700;
       margin-left: 85px;
-      font-size: 25px;
+      font-size: 30px;
       margin-bottom: 50px;
     }
   
@@ -360,11 +163,11 @@
       margin-bottom: 3px;
     }
   
-    .logorival {
+    .logoboca {
       height: 55px;
     }
   
-    .logoboca {
+    .logorival {
       height: 55px;
     }
   
@@ -389,18 +192,4 @@
       background-color: #faea86;
     }
   
-    .notitulo {
-      color: #004698;
-      margin-bottom: 40px;
-      margin-top: 65px;
-      margin-left: 30px
-    }
-  
-    .notitulo2 {
-      color: #004698;
-      margin-bottom: 40px;
-      margin-top: 65px;
-      margin-left: 30px
-    }
-
   }

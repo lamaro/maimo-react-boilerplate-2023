@@ -19,8 +19,6 @@ function Section() {
 
       <aside>
        <img src="/assets/Image/triunfo-ante-tigre.png" alt="imagen1" className={styles.festejo}/>
-       <img src='/assets/Image/triunfo-ante-tigre-v2.png' className={styles.festejov2} alt='image2' />
-       <img src='/assets/Image/triunfo-ante-tigre-v3.png' className={styles.festejov3} alt='image3' /> 
       </aside>
 
     </div>

@@ -116,22 +116,23 @@ const data = [
 ]
 
 const CardContainer = () => {
-
-
-    return (
-    <Link id='plantel'>
-    <section className={styles.card_container}>
+  return (
+    <Link id="plantel">
+      <section className={styles.card_container}>
         <h1 className={styles.tituloplant}> Plantel </h1>
         <div className="grid">
-        {data.map ((player) =>  (
-        
-        <Card name={player.name} image={player.Image.original} position={player.position} edad={player.edad}/>
-         
-        ))}
-    </div>
-    </section>
+          {data.map((player) => (
+            <Card
+              name={player.name}
+              image={player.Image.original}
+              position={player.position}
+              edad={player.edad}
+            />
+          ))}
+        </div>
+      </section>
     </Link>
-);
+  );
 };
 
 export default CardContainer

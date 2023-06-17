@@ -1,0 +1,11 @@
+
+.btn{
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: #FFC700;
+    margin-right: 10px;
+    transition: opacity .4s ease;
+  }
+  .btn:hover{
+    opacity: .6;
+  }

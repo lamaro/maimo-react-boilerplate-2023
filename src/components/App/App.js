@@ -3,7 +3,7 @@ import Header from '../Header/Header';
 import Hero from '../Hero/Hero';
 import Section from '../Section/Section';
 import CardContainer from '../CardContainer/CardContainer';
-import Resultados from '../Resultados/Resultados';
+import ResultadosContainer from '../ResultadosContainer/ResultadosContainer';
 import Footer from '../Footer/Footer';
 import { Element } from 'react-scroll';
 
@@ -27,7 +27,7 @@ const App = () => {
       </Element>
 
       <Element name="resultados" className="element">
-      <Resultados/>
+      <ResultadosContainer/>
       </Element>
 
       <Footer />
